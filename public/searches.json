@@ -1,0 +1,122 @@
+[{
+        "img": "https://media.gettyimages.com/photos/interior-of-a-loft-flat-picture-id970166502?k=20&m=970166502&s=612x612&w=0&h=3918Zji4ur5_ibK1sqxjlCge6T4OzuuIAAK26LSA4Ss=",
+        "title": "A lovely loft in Los Angeles",
+        "location": "West Hills ,Los Angeles",
+        "description": "2 guests - 1 bedroom - 1 bed - 1.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing machine",
+        "fullPrice": "$540 total",
+        "star": "4.3",
+        "price": "$90 / night",
+        "long": -118.643982,
+        "lat": 34.197311
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/luxurious-and-modern-living-room-3d-rendering-picture-id1213695541?k=20&m=1213695541&s=612x612&w=0&h=BIEUKDU0hv6VtgsJf4bFUBFLjQNt7JzZHsZLY2_FkGw=",
+        "title": "An industrial place to stay within Beverly Hills",
+        "location": "Beverly Hills ,Los Angeles",
+        "description": "4 guests - 2 bedrooms - 2 beds - 2  bathrooms - Wifi - Kitchen - Free parking - Washing machine",
+        "fullPrice": "$780 total",
+        "star": "4.7",
+        "price": "$130 / night",
+        "long": -118.400352,
+        "lat": 34.073620
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/cozy-loft-apartment-interior-in-downtown-los-angeles-picture-id1138529881?k=20&m=1138529881&s=612x612&w=0&h=pDq5gSotjRXHsomY_Ro9eyb4Isg5bh9To8tn_IDywvc=",
+        "title": "Cozy loft in Bel-Air",
+        "location": "Bel Air, Los Angeles",
+        "description": "3 guests - 3 bedrooms - 3 beds - 3 bathrooms - Wifi - Kitchen - Free parking - Washing machine",
+        "fullPrice": "$1,080 total",
+        "star": "4.2",
+        "price": "$180 / night",
+        "long": -76.347343,
+        "lat": 39.535492
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/interior-of-new-york-style-loft-holiday-rental-apartment-picture-id825875078?k=20&m=825875078&s=612x612&w=0&h=A37IjuNdV6Io98tmLVZuGOCuu7MFTg8kKL3PRg2ul7c=",
+        "title": "Red brick duplex",
+        "location": "West Los Angeles",
+        "description": "5 guests - 3 bedrooms - 4 beds - 3.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing machine",
+        "fullPrice": "$1200 total",
+        "star": "4.8",
+        "price": "$200 / night",
+        "long": -118.4426,
+        "lat": 34.0412
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/loft-room-with-brick-walls-and-garden-view-picture-id1146551816?k=20&m=1146551816&s=612x612&w=0&h=VVvOGFurh6_ESm7Nu17v-yRutD0TVbOswwGX5KKy0wA=",
+        "title": "Glasshouse style loft with a garden",
+        "location": "Century City, Los Angeles",
+        "description": "3 guests - 1 bedroom - 2 beds - 2 bathrooms - Wifi - Kitchen - Free parking - Washing machine",
+        "fullPrice": "$630 total",
+        "star": "5.0",
+        "price": "$105 / night",
+        "long": -118.41786,
+        "lat": 34.05557
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/industrial-style-living-room-with-brick-walls-picture-id1146540872?k=20&m=1146540872&s=612x612&w=0&h=wCAJ-19zwClakt1BvYzHK1t8XEKyEAz7eO7MnxbfENQ=",
+        "title": "Lovely space in West Los Angeles",
+        "location": "West Los Angeles",
+        "description": "2 guests - 1 bedroom - 1 bed - 1.5 shared bathrooms - WiFi - Kitchen - Washing machine",
+        "fullPrice": "$780 total",
+        "star": "5.0",
+        "price": "$130 / night",
+        "long": -118.3562,
+        "lat": 34.0705
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/cozy-industrial-style-interior-picture-id954245996?k=20&m=954245996&s=612x612&w=0&h=EDtEjCpJCyqBQTtkCLKyPSw6wyD5dFThwtQ7Tx3lixg=",
+        "title": "Cement styled loft in Studio City",
+        "location": "Studio City, Los Angeles",
+        "description": "4 guests - 2 bedrooms - 2 beds - 2.5 shared bathrooms - WiFi - Kitchen - Parking",
+        "fullPrice": "$468 total",
+        "star": "4.1",
+        "price": "$78 / night",
+        "long": -118.3871,
+        "lat": 34.1396
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/laptop-on-table-in-loft-picture-id970167354?k=20&m=970167354&s=612x612&w=0&h=8muaOYDZmC8Fx7xw1fbZV8TlmfYHkN4amynAK1W54p4=",
+        "title": "Modernised loft within inner Los Angeles",
+        "location": "Dotwntown Los Angeles",
+        "description": "3 guests - 1 bedroom - 2 beds - 2 bathrooms - WiFi - Kitchen - Washing Machine",
+        "fullPrice": "$510 total",
+        "star": "4.3",
+        "price": "$85 / night",
+        "long": -118.2518,
+        "lat": 34.0488
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/sofas-in-living-room-of-loft-picture-id519515301?k=20&m=519515301&s=612x612&w=0&h=vdusHVbeudu2iYlhALUvmHMEyHlWCglGasxZVkh14As=",
+        "title": "Monotone apartment within Fashion District",
+        "location": "Fashion District, Los Angeles",
+        "description": "4 guests - 2 bedrooms - 3 beds - 3 bathrooms - WiFi - Kitchen",
+        "fullPrice": "$552 total",
+        "star": "4.6",
+        "price": "$92 / night",
+        "long": -118.2522,
+        "lat": 34.0352
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/interior-of-a-loft-office-picture-id1134465783?k=20&m=1134465783&s=612x612&w=0&h=U7lQHHixJ-odaY_f5m-ZxrKN4ve5lsyva-rrYVG7aeY=",
+        "title": "Fusion of modern & past in a loft",
+        "location": "San Fernando Valley, Los Angeles",
+        "description": "3 guests - 1 bedroom - 3 beds - 1 shared bathroom - WiFi - Kitchen - Parking",
+        "fullPrice": "$402 total",
+        "star": "4.1",
+        "price": "$67 / night",
+        "long": -118.4397,
+        "lat": 34.1826
+    },
+    {
+        "img": "https://media.gettyimages.com/photos/white-penthouse-interior-picture-id160641325?k=20&m=160641325&s=612x612&w=0&h=118D4VVyxMJUaJ5tbxX1VztEtRMmqQkeHbCGZXQTFiQ=",
+        "title": "High-end designed big house",
+        "location": "Beverly Hills, Los Angeles",
+        "description": "7 guests - 4 bedrooms - 6 beds - 3.5 shared bathrooms - WiFi - Kitchen - Parking - Washing machine",
+        "fullPrice": "$1,536 total",
+        "star": "5.0",
+        "price": "$256 / night",
+        "long": -118.4004,
+        "lat": 34.0736
+    }
+]
