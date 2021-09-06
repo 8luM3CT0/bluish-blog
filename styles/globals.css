@@ -13,8 +13,10 @@
   }
 
   .sidebarDiv {
-    @apply min-w-[100px]
-    max-w-[180px]
+    @apply 
+    min-w-[120px]
+    max-w-[200px]
+    flex-shrink-0
     flex 
     flex-col 
     h-screen 
