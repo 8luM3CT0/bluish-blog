@@ -53,7 +53,7 @@ function Sidebar () {
           <PostBox />
         </div>
       </div>
-      <div className=' flex flex-col text-center mb-4 space-x-4'>
+      <div className='hidden lg:inline-flex flex-col text-center mb-4 space-x-4'>
         <h2 className='text-blue-400 font-semibold text-lg'>
           A bloggy social network
         </h2>
