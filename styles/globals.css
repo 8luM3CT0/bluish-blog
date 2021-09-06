@@ -88,6 +88,8 @@
 
   .widgetsDiv {
     @apply 
+      hidden
+      xl:inline-flex
         min-w-[70px]
         max-w-[90px]
         h-screen  
