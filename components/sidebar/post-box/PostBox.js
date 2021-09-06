@@ -113,7 +113,7 @@ function PostBox () {
             className='
             placeholder-transparent 
             xl:placeholder-gray-200 
-            flex-shrink-0
+            flex-shrink-1
             xl:flex-grow 
             rounded-full 
             h-12 
