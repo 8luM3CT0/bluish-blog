@@ -83,8 +83,9 @@
   }
 
   .widgetsDiv {
-    @apply min-w-[100px]
-        max-w-[180px]
+    @apply 
+        min-w-[900px]
+        max-w-[130px]
         h-screen  
         flex-col 
         overflow-y-scroll
