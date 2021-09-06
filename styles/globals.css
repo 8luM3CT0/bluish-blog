@@ -84,7 +84,7 @@
 
   .widgetsDiv {
     @apply 
-        min-w-[900px]
+        min-w-[90px]
         max-w-[130px]
         h-screen  
         flex-col 
