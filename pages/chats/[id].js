@@ -3,7 +3,7 @@ import Head from 'next/head'
 import ChatList from '../../components/chat/sidebar/ChatList'
 import ChatFeed from '../../components/chat/feed/ChatFeed'
 //back-end
-import { auth, store } from '../../firebase-file/firebaseFile'
+import { auth, store } from '../../firebase'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import getReceiver from '../../utilities/getReceiver'
 import firebase from 'firebase'
