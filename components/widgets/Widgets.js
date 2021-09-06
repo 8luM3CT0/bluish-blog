@@ -39,7 +39,7 @@ function Widgets () {
         hover:text-blue-100
         '
         >
-          <HomeIcon className='h-10 text-blue-200' />
+          <HomeIcon className='h-7 lg:h-10 text-blue-200' />
           <h2 className='hidden xl:inline-flex font-semibold text-blue-200 h-8'>
             Home
           </h2>
@@ -54,7 +54,7 @@ function Widgets () {
         cursor-pointer 
         hover:text-blue-100'
         >
-          <MailIcon className='h-10 text-blue-200' />
+          <MailIcon className='h-7 lg:h-10 text-blue-200' />
           <h2 className=' hidden xl:inline-flex font-semibold text-blue-200 h-8'>
             Direct messages
           </h2>
@@ -70,7 +70,7 @@ function Widgets () {
         cursor-pointer 
         hover:text-blue-100'
         >
-          <LocationMarkerIcon className='h-10 text-blue-200' />
+          <LocationMarkerIcon className='h-7 lg:h-10 text-blue-200' />
           <h2 className=' hidden xl:inline-flex font-semibold text-blue-200 h-8'>
             Places to stay
           </h2>
@@ -86,7 +86,7 @@ function Widgets () {
         hover:text-blue-100
         '
         >
-          <FilmIcon className='h-10 text-blue-200' />
+          <FilmIcon className='h-7 lg:h-10 text-blue-200' />
           <h2 className='hidden xl:inline-flex font-semibold text-blue-200 h-8'>
             Entertainment
           </h2>
