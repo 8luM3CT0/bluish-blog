@@ -57,7 +57,7 @@ function Sidebar () {
           />
         </div>
         {/**PostBox */}
-        <div className='mt-6'>
+        <div className='hidden md:inline-flex mt-6'>
           <PostBox />
         </div>
       </div>
