@@ -8,7 +8,7 @@ import ProgressBar from '@badrap/bar-of-progress'
 //back-end
 import { useEffect } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
-import { auth, store } from '../firebase'
+import { auth, store } from '../firebase-file/firebaseFile'
 import firebase from 'firebase'
 
 function MyApp ({ Component, pageProps }) {

@@ -5,7 +5,7 @@ import { EmojiEmotions, Web } from '@material-ui/icons'
 import { Button } from '@material-ui/core'
 import styled from 'styled-components'
 //back-end
-import { auth, provider } from '../firebase'
+import { auth, provider } from '../firebase-file/firebaseFile'
 
 function Login () {
   const signIn = () => {

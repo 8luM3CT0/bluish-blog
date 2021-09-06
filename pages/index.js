@@ -4,7 +4,7 @@ import Feed from '../components/feed/Feed'
 import Sidebar from '../components/sidebar/Sidebar'
 import Widgets from '../components/widgets/Widgets'
 //back-end
-import { auth, store } from '../firebase'
+import { auth, store } from '../firebase-file/firebaseFile'
 import firebase from 'firebase'
 import { useAuthState } from 'react-firebase-hooks/auth'
 

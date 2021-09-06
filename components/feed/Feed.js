@@ -3,7 +3,7 @@ import { HomeIcon } from '@heroicons/react/outline'
 import Post from './post/Post'
 //back-end
 import { useEffect, useState } from 'react'
-import { store } from '../../firebase'
+import { store } from '../../firebase-file/firebaseFile'
 import { PostAddRounded } from '@material-ui/icons'
 
 function Feed () {

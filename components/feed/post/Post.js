@@ -11,7 +11,7 @@ import { Loop } from '@material-ui/icons'
 import Timeago from 'timeago-react'
 //back-end
 import { forwardRef } from 'react'
-import { auth, store } from '../../../firebase'
+import { auth, store } from '../../../firebase-file/firebaseFile'
 import { useAuthState } from 'react-firebase-hooks/auth'
 
 const Post = forwardRef(

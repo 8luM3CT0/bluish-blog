@@ -2,7 +2,7 @@
 import { ScissorsIcon, SearchIcon } from '@heroicons/react/outline'
 import PostBox from './post-box/PostBox'
 //back-end
-import { auth, store } from '../../firebase'
+import { auth, store } from '../../firebase-file/firebaseFile'
 import { useAuthState } from 'react-firebase-hooks/auth'
 
 function Sidebar () {

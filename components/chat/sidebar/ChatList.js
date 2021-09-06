@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import People from './People'
 //back-end
 import { useRouter } from 'next/router'
-import { auth, store } from '../../../firebase'
+import { auth, store } from '../../../firebase-file/firebase'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { useCollection } from 'react-firebase-hooks/firestore'
 import * as UserValidator from 'email-validator'

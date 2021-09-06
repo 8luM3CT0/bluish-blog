@@ -1,6 +1,6 @@
 //front-end
 //back-end
-import { auth, store } from '../../../firebase'
+import { auth, store } from '../../../firebase-file/firebaseFile'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { useCollection } from 'react-firebase-hooks/firestore'
 import getReceiver from '../../../utilities/getReceiver'

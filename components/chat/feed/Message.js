@@ -2,7 +2,7 @@
 import moment from 'moment'
 import styled from 'styled-components'
 //back-end
-import { auth } from '../../../firebase'
+import { auth } from '../../../firebase-file/firebaseFile'
 import { useAuthState } from 'react-firebase-hooks/auth'
 
 function Message ({ user, message }) {

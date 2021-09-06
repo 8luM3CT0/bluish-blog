@@ -6,7 +6,7 @@ import {
   DocumentReportIcon
 } from '@heroicons/react/outline'
 //back-end
-import { auth, store, storage } from '../../../firebase'
+import { auth, store, storage } from '../../../firebase-file/firebaseFile'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { useRef, useState } from 'react'
 import firebase from 'firebase'
