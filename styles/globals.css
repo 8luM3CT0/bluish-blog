@@ -79,7 +79,8 @@
     h-screen 
     w-screen 
     pb-20 
-    flex-grow 
+    flex-grow
+    flex-1
     flex 
     flex-col 
     bg-gray-700;
