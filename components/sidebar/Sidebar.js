@@ -24,8 +24,8 @@ function Sidebar () {
           <SearchIcon className='h-7 text-gray-500 mr-3' />
         </div>
         {/**User */}
-        <div className='flex items-center justify-between'>
-          <div className='flex items-center space-x-3 mt-5'>
+        <div className='grid xl:inline-flex items-center justify-between'>
+          <div className=' grid xl:inline-flex items-center space-x-3 mt-5'>
             <img
               alt='user pic'
               src={user?.photoURL}
