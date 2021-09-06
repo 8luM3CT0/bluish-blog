@@ -1,12 +1,20 @@
 //front-end
-import { ScissorsIcon, SearchIcon } from '@heroicons/react/outline'
+import {
+  HomeIcon,
+  LocationMarkerIcon,
+  MailIcon,
+  ScissorsIcon,
+  SearchIcon
+} from '@heroicons/react/outline'
 import PostBox from './post-box/PostBox'
 //back-end
 import { auth, store } from '../../firebase-file/firebaseFile'
 import { useAuthState } from 'react-firebase-hooks/auth'
+import { useRouter } from 'next/router'
 
 function Sidebar () {
   const [user] = useAuthState(auth)
+  const router = useRouter()
 
   return (
     <div className='sidebarDiv'>
@@ -24,21 +32,21 @@ function Sidebar () {
           <SearchIcon className='h-7 text-gray-500 mr-3' />
         </div>
         {/**User */}
-        <div className='grid xl:inline-flex items-center justify-between'>
-          <div className=' grid xl:inline-flex items-center space-x-3 mt-5'>
+        <div className='flex items-center justify-between'>
+          <div className='flex items-center space-x-3 mt-5'>
             <img
               alt='user pic'
               src={user?.photoURL}
-              className='rounded-xl border-2 border-gray-700 cursor-pointer'
+              className='rounded-xl border-2 mr-2 border-gray-700 cursor-pointer'
               height={60}
               width={60}
               objectFit='contain'
             />
             <div className='flex-col ml-3'>
-              <h3 className='text-gray-400 font-semibold text-lg'>
+              <h3 className='hidden lg:inline-flex text-gray-400 font-semibold text-lg'>
                 {user?.displayName}
               </h3>
-              <h4 className='hidden xl:inline-flex text-blue-100 font-medium text-sm'>
+              <h4 className='hidden lg:inline-flex text-blue-100 font-medium text-sm'>
                 {user?.email}
               </h4>
             </div>
@@ -53,7 +61,35 @@ function Sidebar () {
           <PostBox />
         </div>
       </div>
-      <div className='hidden lg:inline-flex flex-col text-center mb-4 space-x-4'>
+      <div
+        className='
+      flex
+      flex-col
+      items-center
+      mb-4
+      md:hidden
+      '
+      >
+        <div onClick={() => router.push('/')} className='sidebarLink'>
+          <HomeIcon className='h-8 text-blue-200' />
+          <h2 className='hidden xl:inline-flex font-semibold text-blue-200 h-8'>
+            Home
+          </h2>
+        </div>
+        <div onClick={() => router.push('/chat')} className='sidebarLink'>
+          <MailIcon className='h-8 text-blue-200' />
+          <h2 className=' hidden xl:inline-flex font-semibold text-blue-200 h-8'>
+            Direct messages
+          </h2>
+        </div>
+        <div onClick={() => router.push('/map')} className='sidebarLink'>
+          <LocationMarkerIcon className='h-8 text-blue-200' />
+          <h2 className=' hidden xl:inline-flex font-semibold text-blue-200 h-8'>
+            Places to stay
+          </h2>
+        </div>
+      </div>
+      <div className='hidden md:inline-flex flex-col text-center mb-4 space-x-4'>
         <h2 className='text-blue-400 font-semibold text-lg'>
           A bloggy social network
         </h2>
