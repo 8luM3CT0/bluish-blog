@@ -32,8 +32,8 @@ function Sidebar () {
           <SearchIcon className='h-7 text-gray-500 mr-3' />
         </div>
         {/**User */}
-        <div className='flex items-center justify-between'>
-          <div className='flex items-center space-x-3 mt-5'>
+        <div className='grid md:flex md:justify-between items-center '>
+          <div className='flex items-center space-x-3 mt-5 md:mb-4'>
             <img
               alt='user pic'
               src={user?.photoURL}
@@ -43,10 +43,10 @@ function Sidebar () {
               objectFit='contain'
             />
             <div className='flex-col ml-3'>
-              <h3 className='hidden lg:inline-flex text-gray-400 font-semibold text-lg'>
+              <h3 className=' flex text-gray-400 font-semibold text-lg'>
                 {user?.displayName}
               </h3>
-              <h4 className='hidden lg:inline-flex text-blue-100 font-medium text-sm'>
+              <h4 className='flex text-blue-100 font-medium text-sm'>
                 {user?.email}
               </h4>
             </div>
