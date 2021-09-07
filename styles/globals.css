@@ -13,20 +13,19 @@
   }
 
   .sidebarDiv {
-    @apply
-    min-w-[120px]
-    max-w-[150px]
-    flex-shrink-0
+    @apply 
+    min-w-[100px]
+    max-w-[180px]
     flex 
     flex-col 
     h-screen 
-    sm:max-w-[360px]
-    sm:min-w-[280px]
+    md:max-w-[360px]
+    md:min-w-[280px]
     xl:max-w-[460px] 
     xl:min-w-[420px]
     sm:flex-shrink 
     bg-gray-800
-    justify-between;
+    md:justify-between;
   }
 
   .searchbarDiv {
@@ -75,12 +74,10 @@
   }
 
   .feedDiv {
-    @apply 
-    h-screen 
+    @apply h-screen 
     w-screen 
     pb-20 
-    flex-grow
-    flex-1
+    flex-grow 
     flex 
     flex-col 
     bg-gray-700;
@@ -88,10 +85,10 @@
 
   .widgetsDiv {
     @apply 
-      hidden
-      xl:inline-flex
-        min-w-[70px]
-        max-w-[90px]
+        hidden
+        md:inline-flex
+        min-w-[100px]
+        max-w-[180px]
         h-screen  
         flex-col 
         overflow-y-scroll
@@ -252,5 +249,15 @@
     transform
     duration-100
     ease-out;
+  }
+
+  .sidebarLink{
+    @apply
+    flex
+    items-center
+    space-x-4
+    py-2
+    cursor-pointer
+    hover:text-blue-100
   }
 }
