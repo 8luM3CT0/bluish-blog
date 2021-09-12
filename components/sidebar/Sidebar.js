@@ -37,7 +37,7 @@ function Sidebar () {
             <img
               alt='user pic'
               src={user?.photoURL}
-              className='h-20 rounded-xl border-2 mr-2 border-gray-700 cursor-pointer'
+              className='h-20 w-20 rounded-xl border-2 mr-2 border-gray-700 cursor-pointer'
               height={60}
               width={60}
               objectFit='contain'
