@@ -43,7 +43,7 @@ function Sidebar () {
               objectFit='contain'
             />
             <div className='flex-col ml-3'>
-              <h3 className=' flex text-gray-400 font-semibold text-lg'>
+              <h3 className='hidden lg:inline-flexflex text-gray-400 font-semibold text-lg'>
                 {user?.displayName}
               </h3>
               <h4 className='hidden md:flex text-blue-100 font-medium text-sm'>
