@@ -32,7 +32,7 @@ function Sidebar () {
           <SearchIcon className='h-7 text-gray-500 mr-3' />
         </div>
         {/**User */}
-        <div className='grid md:flex md:justify-between md:items-center space-x-3'>
+        <div className='grid md:flex md:justify-between items-center space-x-3'>
           <div className='grid md:flex md:items-center space-x-3 mt-5 md:mb-4'>
             <img
               alt='user pic'
