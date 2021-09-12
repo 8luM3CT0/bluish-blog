@@ -37,13 +37,13 @@ function Sidebar () {
             <img
               alt='user pic'
               src={user?.photoURL}
-              className='h-20 w-20 rounded-xl border-2 mr-2 border-gray-700 cursor-pointer'
+              className='hidden md:inline-flex rounded-xl border-2 mr-2 border-gray-700 cursor-pointer'
               height={60}
               width={60}
               objectFit='contain'
             />
             <div className='flex-col ml-3'>
-              <h3 className='hidden lg:inline-flexflex text-gray-400 font-semibold text-lg'>
+              <h3 className='hidden lg:inline-flex text-gray-400 font-semibold text-lg'>
                 {user?.displayName}
               </h3>
               <h4 className='hidden md:flex text-blue-100 font-medium text-sm'>
