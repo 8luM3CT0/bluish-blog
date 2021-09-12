@@ -42,7 +42,7 @@ function Sidebar () {
               width={60}
               objectFit='contain'
             />
-            <div className='flex-col ml-3'>
+            <div className='flex-col items-center'>
               <h3 className='hidden lg:inline-flex text-gray-400 font-semibold text-lg'>
                 {user?.displayName}
               </h3>
