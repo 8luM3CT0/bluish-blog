@@ -24,7 +24,7 @@
     xl:max-w-[460px] 
     xl:min-w-[420px]
     sm:flex-shrink 
-    bg-gray-800
+    bg-gray-100
     md:justify-between;
   }
 
@@ -34,7 +34,7 @@
         xl:w-80
         h-8
         w-60
-        bg-gray-700 
+        bg-gray-300 
         xl:flex 
         items-center 
         rounded-xl;
@@ -80,7 +80,7 @@
     flex-grow 
     flex 
     flex-col 
-    bg-gray-700;
+    bg-gray-100;
   }
 
   .widgetsDiv {
@@ -95,7 +95,7 @@
         scrollbar-hide
         xl:max-w-[530px]
         xl:min-w-[420px]
-        bg-gray-800;
+        bg-gray-100;
   }
 
   .removeImage {
@@ -135,7 +135,7 @@
     flex
     pt-3
     pb-3
-    bg-gray-600
+    bg-gray-100
     border-b-2
     border-blue-300
     h-20
@@ -150,7 +150,7 @@
     flex
     pt-3
     pb-3
-    bg-gray-600
+    bg-gray-100
     border-t-2
     border-blue-300
     h-20
@@ -180,7 +180,7 @@
     z-50
     grid
     grid-cols-3
-    bg-gray-700
+    bg-gray-100
     shadow-md
     p-5
     md:px-10;
@@ -221,7 +221,7 @@
     rounded-xl
     flex
     items-center
-    hover:bg-gray-700
+    hover:bg-gray-100
     transition
     transform
     duration-150
