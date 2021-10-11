@@ -24,7 +24,7 @@
     xl:max-w-[460px] 
     xl:min-w-[420px]
     sm:flex-shrink 
-    bg-gray-100
+    bg-gray-800
     md:justify-between;
   }
 
@@ -34,7 +34,7 @@
         xl:w-80
         h-8
         w-60
-        bg-gray-300 
+        bg-gray-700 
         xl:flex 
         items-center 
         rounded-xl;
@@ -80,7 +80,7 @@
     flex-grow 
     flex 
     flex-col 
-    bg-gray-100;
+    bg-gray-800;
   }
 
   .widgetsDiv {
@@ -95,7 +95,7 @@
         scrollbar-hide
         xl:max-w-[530px]
         xl:min-w-[420px]
-        bg-gray-100;
+        bg-gray-800;
   }
 
   .removeImage {
@@ -135,7 +135,7 @@
     flex
     pt-3
     pb-3
-    bg-gray-100
+    bg-gray-800
     border-b-2
     border-blue-300
     h-20
@@ -150,7 +150,7 @@
     flex
     pt-3
     pb-3
-    bg-gray-100
+    bg-gray-800
     border-t-2
     border-blue-300
     h-20
@@ -180,7 +180,7 @@
     z-50
     grid
     grid-cols-3
-    bg-gray-100
+    bg-gray-800
     shadow-md
     p-5
     md:px-10;
